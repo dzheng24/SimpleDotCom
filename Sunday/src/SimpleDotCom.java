@@ -13,19 +13,20 @@ public class SimpleDotCom {
         String result = "miss"; // make a variable to hold the result to return; set "miss" as default
 
         for (int cell : locationCells) { // repeat with each cell in the locationCells array
-          if (guess == cell) {
-            result = "hit";
-            numOfHits++;
-            break; // get out of the loop, no need to test other cells
-          }
+            if (guess == cell) {
+                result = "hit";
+                numOfHits++;
+                break; // get out of the loop, no need to test other cells
+            }
         }
 
         if (numOfHits == locationCells.length) {
-          result = "kill";
+            result = "kill";
         }
 
         System.out.println(result);
 
         return result;
-      }
+    }
 }
+

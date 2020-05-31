@@ -19,5 +19,5 @@ public class SimpleDotComTestDrive {
         }
         System.out.println(testResult); // print out the test result (passed or failed)
     }
-
 }
+
